@@ -47,5 +47,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %{_sysconfdir}/X11/app-defaults/*
-%attr(755,root,wheel) %{_bindir}/*
+%attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*.1*
