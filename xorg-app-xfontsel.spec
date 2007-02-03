@@ -1,12 +1,12 @@
-Summary:	xfontsel application
-Summary(pl):	Aplikacja xfontsel
+Summary:	xfontsel application - point and click selection of X11 font names
+Summary(pl):	Aplikacja xfontsel - wybór fontów X11 przy u¿yciu myszki
 Name:		xorg-app-xfontsel
-Version:	1.0.1
+Version:	1.0.2
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xfontsel-%{version}.tar.bz2
-# Source0-md5:	f7b240af84fa8f68f5074b3f0ae479e5
+# Source0-md5:	288fe4cf8a990e4e602aac16dd9109fb
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -18,10 +18,14 @@ Requires:	xorg-lib-libXt >= 1.0.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-xfontsel application.
+The xfontsel application provides a simple way to display the fonts
+known to your X server, examine samples of each, and retrieve the X
+Logical Font Description (XLFD) full name for a font.
 
 %description -l pl
-Aplikacja xfontsel.
+Aplikacja xfontsel udostêpnia ³atwy sposób wy¶wietlania fontów
+widocznych dla serwera X, ogl±danie ich przyk³adów i odczytywanie
+pe³nych nazw XLFD (X Logical Font Description) dla fontów.
 
 %prep
 %setup -q -n xfontsel-%{version}
