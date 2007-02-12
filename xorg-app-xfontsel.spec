@@ -1,5 +1,5 @@
 Summary:	xfontsel application - point and click selection of X11 font names
-Summary(pl):	Aplikacja xfontsel - wyb髍 font體 X11 przy u縴ciu myszki
+Summary(pl.UTF-8):   Aplikacja xfontsel - wyb贸r font贸w X11 przy u偶yciu myszki
 Name:		xorg-app-xfontsel
 Version:	1.0.2
 Release:	1
@@ -22,10 +22,10 @@ The xfontsel application provides a simple way to display the fonts
 known to your X server, examine samples of each, and retrieve the X
 Logical Font Description (XLFD) full name for a font.
 
-%description -l pl
-Aplikacja xfontsel udost阷nia 砤twy spos骲 wy秝ietlania font體
-widocznych dla serwera X, ogl眃anie ich przyk砤d體 i odczytywanie
-pe硁ych nazw XLFD (X Logical Font Description) dla font體.
+%description -l pl.UTF-8
+Aplikacja xfontsel udost臋pnia 艂atwy spos贸b wy艣wietlania font贸w
+widocznych dla serwera X, ogl膮danie ich przyk艂ad贸w i odczytywanie
+pe艂nych nazw XLFD (X Logical Font Description) dla font贸w.
 
 %prep
 %setup -q -n xfontsel-%{version}
