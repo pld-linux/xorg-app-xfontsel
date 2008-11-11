@@ -1,0 +1,19 @@
+commit bb0968eff74cb55cf2de125f828a76f679c4a017
+Author: Julien Cristau <jcristau@debian.org>
+Date:   Tue Aug 19 00:58:18 2008 +0200
+
+    xaw8 is gone, use xaw7
+
+diff --git a/configure.ac b/configure.ac
+index 9f3a3e6..7e2b568 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -31,7 +31,7 @@ AM_CONFIG_HEADER(config.h)
+ AC_PROG_CC
+ AC_PROG_INSTALL
+ 
+-XAW_CHECK_XPRINT_SUPPORT(XFONTSEL)
++PKG_CHECK_MODULES(XFONTSEL, xaw7)
+ 
+ AC_SUBST(XFONTSEL_CFLAGS)
+ AC_SUBST(XFONTSEL_LIBS)
