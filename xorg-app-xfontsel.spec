@@ -1,12 +1,12 @@
 Summary:	xfontsel application - point and click selection of X11 font names
 Summary(pl.UTF-8):	Aplikacja xfontsel - wybór fontów X11 przy użyciu myszki
 Name:		xorg-app-xfontsel
-Version:	1.0.3
+Version:	1.0.4
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xfontsel-%{version}.tar.bz2
-# Source0-md5:	299fabe7d7be92b6572d814895ce3bb1
+# Source0-md5:	3f7e8ba9e34589a07d190575ae6c86cf
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
